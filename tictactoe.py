@@ -49,7 +49,7 @@ def win(current_game):
 def game_board(game_map, player=0, row=0, column=0, just_display=False):
     try:
         if game_map[row][column] != 0:
-            print("This position is occupado! Choose another!")
+            print("This position is occupied! Try again")
             return game_map, False
         print("    " + "  ".join([str(i) for i in range(len(game_map))]))
         if not just_display:
