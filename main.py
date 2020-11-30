@@ -8,27 +8,27 @@ def admin():
         def password_login():
             if username == 'samit':
                 password = raw_input("Enter Password : ")
-                passwords = {"samit" : "smt#2002", "mihica" : "Mihica08"}
+                passwords = {"samit" : "samitmohan123", "mihica" : "mmihica08"}
                 for key, value in passwords.items(): 
                     if password == value: 
                         print("You're logged in")
                         break
                 else:
                     print("Wrong password")
-                    hint = "s*t*2*0*2"
+                    hint = "name+number"
                     print("Hint : ", hint)
                     password_login()
                                                                  
             else:
                 password2 = raw_input("Enter Password : ")
-                passwords = {"samit" : "smt#2002", "mihica" : "Mihica08"}
+                passwords = {"samit" : "samitmohan123", "mihica" : "mmihica08"}
                 for key, value in passwords.items(): 
                     if password2 == value: 
                         print("You're logged in")
                         break
                 else:
                     print("Wrong password")
-                    hint = "M*h*c*0*"
+                    hint = "name+number"
                     print("Hint : ", hint) 
                     password_login() 
 
